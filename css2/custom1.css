@@ -1,0 +1,94 @@
+.page-container.page-navigation-top-fixed .x-navigation.x-navigation-horizontal {
+  position: fixed;
+  padding-right: 220px;
+  top: 0px;
+}
+
+.x-navigation > li.xn-logo > a {
+	padding: 0px;
+}
+
+.bg-yellow {
+	background-color:#ffdd15;
+	color: #2e3192;
+	font-weight:bold;
+	border-color:  #2e3192;
+}
+
+.bg-green {
+	background-color:#8cc63f;
+	color: #2e3192;
+	font-weight:bold;
+}
+
+.bg-eblue{
+	background-color:#2e3192;
+}
+
+#top-navigation1{
+	background-color:#2e3192;
+}
+
+#top-navigation2{
+	background-color:#2e3192;
+}
+
+#top-navigation3{
+	background-color:#2e3192;
+}
+
+#top-navigation4{
+	background-color:#2e3192;
+}
+
+#top-navigation5{
+	background-color:#2e3192;
+}
+
+a.list-group-item.active>.badge {
+	background-color:#fff;
+	color:#2e3192;
+}
+
+.profile {
+	background-color: #fff;
+}
+
+.x-navigation li{
+  background: #cccccc;
+  color:#000;
+}
+
+/* sous-menu verticale */
+.x-navigation li > ul li {
+  background: #dadada;
+}
+
+.x-navigation li > ul li a{
+  color:#000;
+}
+
+.x-navigation.x-navigation-horizontal {
+  height: 50px;
+  background: #2e3192;
+}
+
+.x-navigation .x-navigation-horizontal .x-navigation-panel {
+	background-color:silver;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
