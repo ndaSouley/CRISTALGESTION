@@ -87,9 +87,9 @@ $id_user=$_SESSION['TaxeUserData'][0]['id_user'];
 
         <ul class="nav navbar-top-links navbar-right">
             <li class="dropdown">
-            <li style="color:#FFFFFF;margin-bottom:10;px"><?php echo($_SESSION['TaxeUserData'][0]['libelle'].' '.$_SESSION['TaxeUserData'][0]['prenoms_user']);?></li>
+            <li style="color:#FFFFFF;margin-bottom:10px;"><?php echo($_SESSION['TaxeUserData'][0]['libelle'].' '.$_SESSION['TaxeUserData'][0]['prenoms_user']);?></li>
 
-            <li class="col"><a href="deconnexion.php" style="color:#FFFFFF"><i class="fa fa-sign-out"><strong style="color:#0d0e0d"></strong></i></a>
+            <li class="col"><a href="deconnexion.php" style="color:white"><i class="fa fa-sign-out"><strong style="color:#0d0e0d"></strong></i></a>
             </li>
         </ul>
         <!-- /.dropdown-user -->
@@ -251,7 +251,7 @@ $id_user=$_SESSION['TaxeUserData'][0]['id_user'];
         sessionStorage.even = "insert";
         $("#page-wrapper").empty();
         if (fen!=='non') {
-            <!-- $("#page-wrapper").load(fen+".html"); -->
+        //    $("#page-wrapper").load(fen+".html"); 
             $("#page-wrapper").load(fen);
 
         }
